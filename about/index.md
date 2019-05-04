@@ -6,5 +6,5 @@ date: 2016-03-21
 comments: false
 ---
 I am Lina, a Paraguayan living and studying in Germany.
-My main interests are related to the Web and how to create more interoperable environments on it.
+My main interests are related to the Web and how to create more interoperable environments on it. I have a great interest for aesthetic design and functionality at different levels of software development.
 At a more personal level, I love to cook and to go for a walk in the nature. Also, I enjoy reading books and trying to improve myself at a professional and personal level.
