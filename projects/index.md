@@ -14,7 +14,7 @@ comments: false
               * Ontology Reasoning
               * Data Modeling
 
-* I am also interested and have experience in:
+* __I am also interested and have experience in:__
               * Software Quality Assurance
                     * Software Analysis and Design
                     * Test Strategy Development
