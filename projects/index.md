@@ -33,6 +33,10 @@ comments: false
               * Java
               * C
               * C++
+              * JSON-LD
+              * RDFS
+              * SKOS
+              * SCHAL
               * Django
               * PostgreSQL
               * Junit
