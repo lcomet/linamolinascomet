@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: post
 title: All Projects
 excerpt: "Here you can find some of my experience related information."
 comments: false
