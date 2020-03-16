@@ -1,6 +1,6 @@
 ---
 layout: project
-title: All projects
+title: All projects are here
 tags: [projects, interests]
 excerpt: "List of Projects"
 comments: false
