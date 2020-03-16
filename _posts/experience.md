@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title:  "Work"
 excerpt: "Here you can find some of my experience related information."
 project: true
