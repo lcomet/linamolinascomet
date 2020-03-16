@@ -1,19 +1,8 @@
 ---
-#layout: project
-#title: All Projects
-#excerpt: "A List of Projects"
-#comments: false
----
-
----
-layout: post
-title:  "Work"
+layout: project
+title: All Projects
 excerpt: "Here you can find some of my experience related information."
-project: true
-tag:
-- blog
-- about
-comments: true
+comments: false
 ---
 
 ## Professional interests:
