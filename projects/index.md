@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Experience and Tools
-excerpt: "Here you can find some of my experience related information."
+tags: [projects, interests]
+#excerpt: "Here you can find some of my experience related information."
 comments: false
 ---
 
