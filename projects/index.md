@@ -7,7 +7,7 @@ comments: false
 ---
 
 ## Professional interests:
-* Main Interests:
+* __Main Interests:__
               * Semantic Web
               * Knowledge Representation
               * Ontology Development
@@ -22,14 +22,14 @@ comments: false
 
 ## Technical Details:
 
-* Most common tools I currently use:
+* __Most common tools I currently use:__
               * Python
               * Protege
               * OWL
               * RDF
               * SPARQL
 
-* Another tools I used before but I am willing to use any time soon:
+* __Another tools I used before but I am willing to use any time soon:__
               * Java
               * C
               * C++
