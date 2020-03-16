@@ -2,7 +2,6 @@
 layout: page
 title: About me
 tags: [about, me, Lina, information]
-date: 2016-03-21
 comments: false
 ---
 I am Lina, a Paraguayan living and studying in Germany.

@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Work"
-date:   2016-04-06
 excerpt: "Here you can find some of my experience related information."
 project: true
 tag:
@@ -12,8 +11,8 @@ comments: true
 
 ## Professional interests:
 * Main Interests:
-  * Semantic Web
-  * Knowledge Representation
+              * Semantic Web
+              * Knowledge Representation
               * Ontology Development
               * Ontology Reasoning
               * Data Modeling
