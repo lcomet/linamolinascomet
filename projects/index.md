@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: post
 title: All projects are here
 tags: [projects, interests]
 excerpt: "List of Projects"
