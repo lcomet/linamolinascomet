@@ -48,7 +48,7 @@ comments: false
               * Oracle Forms
               * Oracle Reports
 
-## Operative Systems
+## Operating Systems
 * OS
 * Linux
 * Windows
