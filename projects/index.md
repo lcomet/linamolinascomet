@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Experience and Tools
 tags: [projects, interests]
 #excerpt: "Here you can find some of my experience related information."
