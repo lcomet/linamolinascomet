@@ -1,6 +1,6 @@
 ---
 layout: page
-title: All projects are here
+title: My professional experience and some technical details
 tags: [projects, interests]
 excerpt: "List of Projects"
 comments: false
