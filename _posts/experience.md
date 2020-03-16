@@ -12,8 +12,8 @@ comments: true
 
 ## Professional interests:
 * Main Interests:
-              * Semantic Web
-              * Knowledge Representation
+  * Semantic Web
+  * Knowledge Representation
               * Ontology Development
               * Ontology Reasoning
               * Data Modeling
