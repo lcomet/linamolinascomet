@@ -17,7 +17,7 @@ comments: false
               * Software Quality Assurance
                     * Software Analysis and Design
                     * Test Strategy Development
-                    * Quality Assurance Policies and Best practices
+                    * Quality Assurance Policies and Best Practices
 
 ## Technical Details:
 
