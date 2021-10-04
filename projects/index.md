@@ -7,8 +7,7 @@ comments: false
 ---
 ## Professional interests:
 * __Main Interests:__
-
-              * Semantic Web
+              * Knowledge Graphs (a.k.a Semantic Web)
               
               * Knowledge Representation
               
@@ -19,7 +18,6 @@ comments: false
               * Data Modeling
 
 * __I am also interested and have experience in:__
-
                     * Software Quality Assurance
                     
                     * Software Analysis and Design
