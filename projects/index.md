@@ -39,7 +39,7 @@ comments: false
               * Turtle
               * RDF
               * RDFS
-              * SCHAL
+              * SHACL
 
 * __Other tools I used before but I am willing to use any time soon:__
               * Java
