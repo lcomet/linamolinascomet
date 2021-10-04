@@ -64,5 +64,6 @@ comments: false
 ## Languages I am confident enough to work with:
 * English (Professional Proficiency)
 * Spanish (Native)
+* Guarani (Native)
 
 ... but I also know some German and Dutch :)
