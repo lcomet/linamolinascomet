@@ -4,9 +4,11 @@ title: About me
 tags: [about, me, Lina, information]
 comments: false
 ---
-I am Lina, a Paraguayan living and studying in Germany.
+I am Lina, a Paraguayan working in Germany.
 
-My main interests are related to the Web and how to create more interoperable environments on it. I also have a great interest for aesthetic design and functionality at different levels of software development.
+My main interests are related to the Web and how to create more interoperable environments on it. I am also interested in investigating how Semantic Web technologies can help industries in different domains to share and understand their data more efficiently.
+
+Moreover, I have a great interest for aesthetic design and functionality at different levels of software development.
 
 At a more personal level, I love music and art in general.
 I also love doing yoga, cooking creatively, and going for walks/hikes in nature. 
