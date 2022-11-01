@@ -6,7 +6,7 @@ description:        "Continuously learning"
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/menew.jpg'
-background:         'assets/img/gaviota.jpg'
+background:         'assets/img/gaviotacliff.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
 url:                https://lcomet.github.io/linamolinascomet/
