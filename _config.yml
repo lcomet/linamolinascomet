@@ -5,8 +5,8 @@ bio:                'Computer Scientist (MSc. Software Systems Engineering - RWT
 description:        "Continuously learning"
 reading_time:       true
 words_per_minute:   200
-logo:               'assets/img/me.jpg'
-background:         'assets/img/gaviotacliff.jpg'
+logo:               'assets/img/menew.jpg'
+background:         'assets/img/gaviota.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
 url:                https://lcomet.github.io/linamolinascomet/
