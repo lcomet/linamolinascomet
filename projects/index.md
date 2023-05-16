@@ -1,12 +1,12 @@
 ---
-layout: project
+layout: page
 title: My professional experience and some technical details
 tags: [projects, interests]
 excerpt: "List of Projects"
 comments: false
 ---
 ## Professional interests:
-* __Main Interests:__
+* Main Interests:
 
               * Knowledge Graphs (a.k.a Semantic Web)
 
@@ -18,7 +18,7 @@ comments: false
 
               * Data Modeling
 
-* __I am also interested and have experience in:__
+* I am also interested and have experience in:
 
                     * Software Quality Assurance
 
@@ -28,7 +28,7 @@ comments: false
 
                     * Quality Assurance Policies and Best Practices
 
-* __For more details:__ you can check my LinkedIn profile :)
+* For more details: you can check my LinkedIn profile :)
 
 ## Technical Details:
 
