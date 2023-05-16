@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: home
 title: My professional experience and some technical details
 tags: [projects, interests]
 excerpt: "List of Projects"
