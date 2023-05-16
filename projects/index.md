@@ -6,14 +6,14 @@ excerpt: "List of Projects"
 comments: false
 ---
 ## Professional interests:
-* Main Interests:
+*  __Main Interests__:
               - Knowledge Graphs (a.k.a Semantic Web)
               - Knowledge Representation
               - Ontology Development
               - Ontology Reasoning
               - Data Modeling
 
-* I am also interested and have experience in:
+*  __I am also interested and have experience in__:
               - Software Quality Assurance
               - Software Analysis and Design
               - Test Strategy Development
