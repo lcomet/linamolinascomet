@@ -9,23 +9,16 @@ comments: false
 * Main Interests:
 
               * Knowledge Graphs (a.k.a Semantic Web)
-
               * Knowledge Representation
-
               * Ontology Development
-
               * Ontology Reasoning
-
               * Data Modeling
 
 * I am also interested and have experience in:
 
                     * Software Quality Assurance
-
                     * Software Analysis and Design
-
                     * Test Strategy Development
-
                     * Quality Assurance Policies and Best Practices
 
 * For more details: you can check my LinkedIn profile :)
