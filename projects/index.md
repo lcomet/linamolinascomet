@@ -7,30 +7,30 @@ comments: false
 ---
 ## Professional interests:
 * Main Interests:
-              * Knowledge Graphs (a.k.a Semantic Web)
-              * Knowledge Representation
-              * Ontology Development
-              * Ontology Reasoning
-              * Data Modeling
+              - Knowledge Graphs (a.k.a Semantic Web)
+              - Knowledge Representation
+              - Ontology Development
+              - Ontology Reasoning
+              - Data Modeling
 
 * I am also interested and have experience in:
-                    * Software Quality Assurance
-                    * Software Analysis and Design
-                    * Test Strategy Development
-                    * Quality Assurance Policies and Best Practices
+              - Software Quality Assurance
+              - Software Analysis and Design
+              - Test Strategy Development
+              - Quality Assurance Policies and Best Practices
 
 * For more details: you can check my LinkedIn profile :)
 
 ## Technical Details:
 
 * __Most common tools/standards I currently use:__
-              * Python
-              * Protege
-              * OWL
-              * Turtle
-              * RDF
-              * RDFS
-              * SHACL
+              - Python
+              - Protege
+              - OWL
+              - Turtle
+              - RDF
+              - RDFS
+              - SHACL
 
 * __Other tools I used before but I am willing to use any time soon:__
               * Java
