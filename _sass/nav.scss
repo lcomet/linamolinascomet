@@ -47,8 +47,8 @@
 		background: $white;
 		top: 10px;
 		left: 16%;
-		box-shadow: 
-			0 10px 0 $white, 
+		box-shadow:
+			0 10px 0 $white,
 			0 20px 0 $white;
 	}
 	button.dl-active {
@@ -130,7 +130,7 @@
 		max-height: 600px;
 		opacity: 0;
 		pointer-events: none;
-		box-shadow: 0 12px 24px rgba($black,0.4);
+		box-shadow: 0 12px 24px rgba($white,0.4);
 		-webkit-transform: translateY(10px);
 		-moz-transform: translateY(10px);
 		transform: translateY(10px);
@@ -156,7 +156,7 @@
 	}
 	.dl-submenu {
 		@include rounded(3px);
-		box-shadow: 0 12px 24px rgba($black,0.4);
+		box-shadow: 0 12px 24px rgba($white,0.4);
 		.btn {
 			margin-bottom: 0;
 		}
@@ -166,10 +166,10 @@
 		display: none;
 	}
 }
-/* 
+/*
 When a submenu is openend, we will hide all li siblings.
 For that we give a class to the parent menu called "dl-subview".
-We also hide the submenu link. 
+We also hide the submenu link.
 The opened submenu will get the class "dl-subviewopen".
 All this is done for any sub-level being entered.
 */
