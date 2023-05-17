@@ -33,19 +33,18 @@ comments: false
               - SHACL
 
 * __Other tools I used before but I am willing to use any time soon:__
-              * Java
-              * C
-              * C++
-              * Junit
-              * JSON-LD
-              * SPARQL
-              * SKOS
-              * Django
-              * Flask
-              * PostgreSQL
-              * HTML / HTML5
-              * Javascript
-              * CSS
+              - Java
+              - C
+              - C++
+              - Junit
+              - JSON-LD
+              - SPARQL
+              - Django
+              - Flask
+              - PostgreSQL
+              - HTML / HTML5
+              - Javascript
+              - CSS
 
 ## Operating Systems
 * OS
