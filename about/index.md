@@ -4,7 +4,7 @@ title: About me
 tags: [about, me, Lina, information]
 comments: false
 ---
-I am Lina, a Paraguayan working as a Research Associate at the [Data Science and Artificial Intelligence Department](https://www.fit.fraunhofer.de/de/geschaeftsfelder/data-science-und-kuenstliche-intelligenz.html) at Fraunhofer FIT.
+Hi, I am Lina! I am a Research Associate at the [Data Science and Artificial Intelligence Department](https://www.fit.fraunhofer.de/de/geschaeftsfelder/data-science-und-kuenstliche-intelligenz.html) at Fraunhofer FIT.
 
 I am a highly organized, results-oriented person with attention to detail and efficient communication.
 
