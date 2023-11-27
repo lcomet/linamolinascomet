@@ -1,77 +1,115 @@
-# Site
-repository: lcomet.linamolinascomet
-title:              Lina Molinas Comet
-bio:                'Computer Scientist (MSc. Software Systems Engineering - RWTH)'
-description:        "Continuously learning"
-reading_time:       true
-words_per_minute:   200
-logo:               'assets/img/profile.jpg'
-background:         'assets/img/gaviotacliff.jpg'
-tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
-locale:             en_US
-url:                https://lcomet.github.io/linamolinascomet/
+# main text of home
+title: Lina Molinas Comet
+bio:  'Computer Scientist (MSc. Software Systems Engineering - RWTH)'
 
-# Jekyll
-permalink:          /:title/
-markdown:           kramdown
-highlighter:        rouge
-kramdown:
-  auto_ids:         true
-  footnote_nr:      1
-  entity_output:    as_char
-  toc_levels:       1..6
-  enable_coderay:   false
-mathjax:            true
-sass:
-  sass_dir:         _sass
-  style:            compressed
+# twitter summary info
+description: A blog about technology and stuff related
 
-# Comments
-disqus_shortname:   taylantatli
+# if it's an external image, update below for true
+# better with square images
+external-image: false
+picture: assets/images/profile.jpg
 
-# Social
-# if you don't have any of social below, comment the line.
-#google:
-  #plus:            #username
-  #analytics:
-  #verify:
-  #ad-client:
-  #ad-slot:
-#bing-verify:
-email:              linamolinascomet@gmail.com
-twitter:            linacomet
-#facebook:           username
-github-url:         lcomet
-#stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
-linkedin:           lina-teresa-molinas-comet
-#xing:              username
-#instagram:          username
-#lastfm:            username
-#tumblr:            username
-#medium:            '@username'
-#pinterest:         username
-#foursquare:        username
-#steam:              username
-#dribbble:          username
-#youtube:           username
-#youtube-channel:   channel
-#soundcloud:        username
-#weibo:             username
-#flickr:            username
-#codepen:           username
-#keybase:           username
-#xmpp:              username@server.com
-#hackernews:        username
+# your site color theme, true for dark theme,
+# false to light theme, auto to switch with system.
+dark-theme: auto
 
-# Gems
-gems:
-  - jekyll-mentions
-  - jekyll-feed
-  - jekyll-sitemap
+# If you want to include your resume, set to true
+# and specify source (external or local).
+resume: true
+resume-external: true
+resume-url: https://www.linkedin.com/in/lina-teresa-molinas-comet
+
+url: https://lcomet.github.io/linamolinascomet/
+# your url: https://USERNAME.github.io
+
+permalink: /:title/
+
+# To enable google analytics, supply your token below
+# analytics-google: 'UA-MYANALYTICS'
+
+# if you don't want comments in your posts, leave categories empty
+disqus:
+  shortname: github # enter this from your disqus account
+  categories: [blog, project] # only show disqus for posts that have these categories
+
+# if you don't have any of social below, comment the line
+twitter: linacomet
+linkedin: lina-teresa-molinas-comet
+github: lcomet
+email: linamolinascomet@gmail.com
+
+authors:
+  johndoe:
+    name: John Doe
+    bio: A Man who travels the world eating noodles
+    external-image: false
+    picture: assets/images/profile.jpg
+    twitter: johndoe
+  jamesfoster:
+    name: James Foster
+    bio: A Man who develops software with coffee
+    external-image: false
+    picture: assets/images/james.jpg
+    twitter: jamesfoster
+
+# do you want a larger site? change the option below
+# options: [normal, large] | default: normal
+# normal = 560px / large = 810px
+width: normal
+
+# if you don't need projects, comment the *projects* configs below
+projects: true
+
+# if you don't need "about" or "blog", comment them out below
+about: true
+blog: true
+
+# do you want to show the "read time" of the posts?
+read-time: true
+
+# do you want to show the "tags" inside the posts?
+show-tags: true
+
+# related posts inside a post?
+related: true
+
+# Display links for next and previous posts for the specified categories
+post-advance-links: [blog]
+
+# show author block at the end of a post ?
+show-author: true
+
+# do you want some animations?
+animation: true
+
+# add default values to specific pages or layouts
+defaults:
+  - scope:
+      path: "" # an empty string here means all files in the project
+      layout: "post"
+    values:
+      # setting all post to not hidden by default,
+      # can be overridden in the front matter for a specific post
+      hidden: false
+
+plugins:
+  - jekyll-seo-tag
   - jekyll-gist
+  - jekyll-feed
+  - jemoji
 
-jekyll-mentions:
-    base_url: https://github.com
+compress_html:
+  ignore:
+    envs:
+      - development
+      - stage
 
-# Exclude list
-exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile]
+exclude:
+  [
+    "README.md",
+    "Gemfile",
+    "Gemfile.lock",
+    "FAQ.md",
+    "vendor",
+  ]

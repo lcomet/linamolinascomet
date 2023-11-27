@@ -1,7 +1,11 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
-gem "jekyll", ">= 3.6.3"
-gem "jekyll-sitemap"
-gem "jekyll-gist"
-gem 'jekyll-mentions'
-gem 'jekyll-feed'
+group :jekyll_plugins do
+    gem 'github-pages'
+    gem 'jekyll-feed'
+    gem 'jekyll-gist'
+    gem 'jekyll-seo-tag'
+    gem 'jemoji'
+end
+
+gem "webrick"
