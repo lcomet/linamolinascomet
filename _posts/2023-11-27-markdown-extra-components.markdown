@@ -1,16 +1,14 @@
 ---
-title: "Markdown Extra Components"
+title: "Some post"
 layout: post
-date: 2016-02-24 22:48
-image: /assets/images/markdown.jpg
+date: 2023-11-27 18:40
+image: 
 headerImage: false
 tag:
 - markdown
-- components
-- extra
 category: blog
-author: jamesfoster
-description: Markdown summary with different options
+author: linamolinascomet
+description: some description
 ---
 
 ## Summary:
@@ -18,17 +16,10 @@ description: Markdown summary with different options
 You can pick as item to see how to apply in markdown.
 
 #### Especial Elements
-- [Evidence](#evidence)
-- [Side-by-Side](#side-by-side)
-- [Star](#star)
-- [Especial Breaker](#especial-breaker)
-- [Spoiler](#spoiler)
+
 
 #### External Elements
-- [Gist](#gist)
-- [Codepen](#codepen)
-- [Slideshare](#slideshare)
-- [Videos](#videos)
+
 
 ---
 
