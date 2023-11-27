@@ -4,7 +4,7 @@ layout: page
 ---
 ![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %})
 
-<p>Hi, I am Lina! I am a Research Associate at the [Data Science and Artificial Intelligence Department](https://www.fit.fraunhofer.de/de/geschaeftsfelder/data-science-und-kuenstliche-intelligenz.html) at Fraunhofer FIT.
+<p>Hi, I am Lina! I am a Research Associate at the <a href="https://www.fit.fraunhofer.de/de/geschaeftsfelder/data-science-und-kuenstliche-intelligenz.html/">Data Science and Artificial Intelligence Department</a> at Fraunhofer FIT.
 I am a highly organized, results-oriented person with attention to detail and efficient communication.
 </p>
 
