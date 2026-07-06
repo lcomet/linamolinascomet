@@ -1,63 +1,37 @@
-<p align="center">
-    <h2 align="center">Indigo Minimalist Jekyll Template - <a href="https://sergiokopplin.github.io/indigo/">Demo</a></h2>
-</p>
+# New site theme — install guide
 
-<p align="center">This is a simple and minimalist template for Jekyll for those who likes to eat noodles.</p>
+## What's in here
+- `preview.html` — a standalone, clickable mockup of the whole redesign (Home / Blog / Projects / About). Open it in a browser to see it in action, tab through the nav.
+- `_layouts/default.html` — replaces your current theme's layout (header, nav, footer).
+- `assets/css/style.css` — the new stylesheet. All colors/fonts/spacing live here as CSS variables at the top.
+- `index.md`, `about.md`, `blog.md`, `projects.md` — your four pages, rebuilt with your real content.
 
-***
+## How to install into your existing repo (lcomet/linamolinascomet)
 
-<p align="center">
-    <b><a href="README.md#what-has-inside">What has inside</a></b>
-    |
-    <b><a href="README.md#setup">Setup</a></b>
-    |
-    <b><a href="README.md#settings">Settings</a></b>
-    |
-    <b><a href="README.md#how-to">How to</a></b>
-</p>
+1. **Remove the old theme.** In `_config.yml`, delete or comment out the line that pulls in the Indigo theme, e.g.:
+   ```yaml
+   # remote_theme: sergiokopplin/indigo
+   ```
+   Also remove any `theme:` line if present.
 
-<p align="center">
-    Light and Dark themes.
-</p>
+2. **Copy in the new files**, keeping the same folder structure:
+   - `_layouts/default.html` → your repo's `_layouts/default.html`
+   - `assets/css/style.css` → your repo's `assets/css/style.css`
+   - `index.md`, `about.md`, `blog.md`, `projects.md` → repo root (overwrite the existing ones)
 
-<p align="center">
-    <img src="https://raw.githubusercontent.com/sergiokopplin/indigo/gh-pages/assets/screen-shot.png" />
-</p>
+3. **Keep your existing `_posts/` folder as-is.** The blog page automatically lists everything in `site.posts`.
 
-## What has inside
+4. **Projects page:** your old theme listed "my project" as a post too. To make it show up under **Projects** specifically, add this to that post's front matter:
+   ```yaml
+   categories: [projects]
+   ```
+   If you'd rather list projects manually instead of by category, replace the loop in `projects.md` with a plain list of `entry-card` links (copy the pattern already used in the fallback block there).
 
-- [Jekyll](https://jekyllrb.com/), [Sass](https://sass-lang.com/) ~[RSCSS](https://rscss.io/)~ and [SVG](https://www.w3.org/Graphics/SVG/);
-- Page Speed: [99~Desktop](https://pagespeed.web.dev/analysis/https-sergiokopplin-github-io-indigo/41axptm3as?utm_source=psi&utm_medium=redirect&form_factor=desktop);
+5. **Profile photo:** already wired to `/assets/images/profile.jpg`, same path as before — no change needed if that file is still there.
 
-## Setup
+6. Commit and push — GitHub Pages will rebuild automatically.
 
-0. :star: to the project. :metal:
-1. Fork the project [Indigo](https://github.com/sergiokopplin/indigo/fork)
-2. Edit `_config.yml` with your data
-3. Write some posts :bowtie:
-
-To run locally do the following:
-
-1. Install [Jekyll](https://jekyllrb.com) and [Bundler](https://bundler.io/).
-2. Clone the forked repo on your machine
-3. Enter the cloned folder via terminal and run:
-```sh
-bundle install
-bundle exec jekyll serve
-```
-4. Open it in your browser: [http://localhost:4000](http://localhost:4000)
-
-Or run with [docker](https://github.com/BretFisher/jekyll-serve).
-
-## Settings
-
-You can customize your site on `_config.yml` file.
-
-## How To?
-
-Check the [FAQ](./FAQ.md).
-
----
-## License
-
-[MIT](https://kopplin.mit-license.org/) License © Sérgio Kopplin
+## Customizing
+- Colors, fonts, radius: all at the top of `assets/css/style.css` under `:root`.
+- The node-graph illustration on the homepage is inline SVG inside `index.md` — edit the `<circle>`/`<text>` labels to change what it connects to.
+- Everything is plain CSS (no build step, no framework) — safe to hand-edit.
