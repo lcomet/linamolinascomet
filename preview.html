@@ -1,0 +1,582 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Lina Molinas Comet — Preview</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+/* =========================================================
+   Lina Molinas Comet — site redesign
+   Palette:  #FFFFFF bg / #14101F ink / #6B24E8 violet
+             #FF4D73 coral / #00C2A8 teal / #FFC94D amber
+   Type:     Space Grotesk (display) / Inter (body) / JetBrains Mono (data)
+   ========================================================= */
+
+:root{
+  --bg:        #FFFFFF;
+  --bg-tint:   #FAF7FF;
+  --ink:       #14101F;
+  --ink-soft:  #5C5468;
+  --line:      #ECE6F7;
+
+  --violet:    #6B24E8;
+  --violet-deep:#4A16A8;
+  --coral:     #FF4D73;
+  --teal:      #00A896;
+  --amber:     #F5A300;
+
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 28px;
+
+  --font-display: 'Space Grotesk', sans-serif;
+  --font-body: 'Inter', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  --maxw: 980px;
+}
+
+*, *::before, *::after{ box-sizing: border-box; }
+
+html{ scroll-behavior: smooth; }
+
+body{
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 17px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+img{ max-width: 100%; display: block; }
+
+a{ color: inherit; }
+
+::selection{ background: var(--violet); color: #fff; }
+
+:focus-visible{
+  outline: 3px solid var(--coral);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+h1, h2, h3, h4{
+  font-family: var(--font-display);
+  line-height: 1.1;
+  margin: 0 0 .5em;
+  letter-spacing: -0.01em;
+}
+
+p{ margin: 0 0 1em; color: var(--ink-soft); }
+
+.wrap{
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* ---------- Top nav ---------- */
+.site-header{
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: rgba(255,255,255,.85);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--line);
+}
+.nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 24px;
+  max-width: var(--maxw);
+  margin: 0 auto;
+}
+.nav .brand{
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.05rem;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.brand .dot{
+  width: 10px; height: 10px; border-radius: 50%;
+  background: var(--violet);
+  box-shadow: 0 0 0 4px color-mix(in srgb, var(--violet) 18%, transparent);
+}
+.nav-links{
+  display: flex;
+  gap: 4px;
+  list-style: none;
+  margin: 0; padding: 0;
+}
+.nav-links a{
+  text-decoration: none;
+  font-weight: 600;
+  font-size: .92rem;
+  padding: 8px 16px;
+  border-radius: 999px;
+  color: var(--ink);
+  transition: background .18s ease, color .18s ease;
+}
+.nav-links a:hover{ background: var(--bg-tint); }
+.nav-links a.active{
+  background: var(--ink);
+  color: #fff;
+}
+
+/* ---------- Buttons / chips ---------- */
+.btn{
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 22px;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: .95rem;
+  text-decoration: none;
+  border: 2px solid var(--ink);
+  color: var(--ink);
+  transition: transform .15s ease, background .15s ease, color .15s ease;
+}
+.btn:hover{ transform: translateY(-2px); }
+.btn.primary{
+  background: var(--ink);
+  color: #fff;
+}
+.btn.primary:hover{ background: var(--violet-deep); border-color: var(--violet-deep); }
+
+.chip{
+  display: inline-flex;
+  align-items: center;
+  font-family: var(--font-mono);
+  font-size: .78rem;
+  font-weight: 500;
+  padding: 6px 12px;
+  border-radius: 8px;
+  background: var(--bg-tint);
+  color: var(--violet-deep);
+  border: 1px solid var(--line);
+}
+
+/* ---------- Hero ---------- */
+.hero{
+  padding: 72px 0 56px;
+  display: grid;
+  grid-template-columns: 1.1fr .9fr;
+  gap: 40px;
+  align-items: center;
+}
+.hero .eyebrow{
+  font-family: var(--font-mono);
+  text-transform: uppercase;
+  letter-spacing: .12em;
+  font-size: .78rem;
+  color: var(--coral);
+  font-weight: 700;
+  margin-bottom: 14px;
+  display: block;
+}
+.hero h1{
+  font-size: clamp(2.4rem, 5vw, 3.6rem);
+  margin-bottom: .2em;
+}
+.hero h1 .accent{ color: var(--violet); }
+.hero .role{
+  font-size: 1.15rem;
+  color: var(--ink-soft);
+  font-weight: 500;
+  margin-bottom: 1.4em;
+  max-width: 46ch;
+}
+.hero-actions{ display:flex; gap: 12px; flex-wrap: wrap; margin-bottom: 22px; }
+.social-row{ display:flex; gap: 14px; }
+.social-row a{
+  width: 40px; height: 40px;
+  border-radius: 50%;
+  border: 2px solid var(--line);
+  display: flex; align-items:center; justify-content:center;
+  text-decoration:none;
+  transition: border-color .15s ease, transform .15s ease;
+}
+.social-row a:hover{ border-color: var(--violet); transform: translateY(-2px); }
+.social-row svg{ width: 18px; height: 18px; }
+
+/* node graph signature */
+.graph-wrap{ display:flex; align-items:center; justify-content:center; }
+.graph-wrap svg{ width: 100%; height: auto; max-width: 420px; }
+.graph-wrap .node-label{
+  font-family: var(--font-mono);
+  font-size: 10px;
+  fill: var(--ink-soft);
+}
+.graph-wrap circle.core{ fill: var(--ink); }
+.graph-wrap line{
+  stroke: var(--line);
+  stroke-width: 1.6;
+}
+.graph-wrap .edge-anim{
+  stroke-dasharray: 140;
+  stroke-dashoffset: 140;
+  animation: draw 1.1s ease forwards;
+}
+@keyframes draw{ to{ stroke-dashoffset: 0; } }
+@media (prefers-reduced-motion: reduce){
+  .graph-wrap .edge-anim{ animation: none; stroke-dashoffset: 0; }
+}
+
+/* ---------- Sections ---------- */
+section.block{ padding: 56px 0; border-top: 1px solid var(--line); }
+section.block:first-of-type{ border-top: none; }
+.block .eyebrow{
+  font-family: var(--font-mono);
+  text-transform: uppercase;
+  letter-spacing: .12em;
+  font-size: .74rem;
+  font-weight: 700;
+  color: var(--teal);
+  margin-bottom: 10px;
+  display:block;
+}
+.block h2{ font-size: clamp(1.6rem, 3vw, 2.1rem); margin-bottom: .6em; }
+
+/* about layout */
+.about-grid{
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 40px;
+}
+.about-photo{
+  width: 180px; height: 180px;
+  border-radius: var(--radius-lg);
+  object-fit: cover;
+  border: 3px solid var(--ink);
+}
+.skills-groups{ display:grid; gap: 22px; margin-top: 8px; }
+.skills-group h4{
+  font-family: var(--font-mono);
+  font-size: .8rem;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  color: var(--ink-soft);
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.chip-row{ display:flex; flex-wrap:wrap; gap: 8px; }
+
+.lang-list{ display:grid; gap: 10px; max-width: 420px; }
+.lang-row{ display:grid; grid-template-columns: 110px 1fr; align-items:center; gap: 12px; font-size:.9rem;}
+.lang-bar{ height: 8px; border-radius: 999px; background: var(--bg-tint); overflow:hidden; }
+.lang-bar span{ display:block; height:100%; background: var(--violet); border-radius: 999px; }
+
+.pub-list{ list-style:none; margin:0; padding:0; display:grid; gap: 14px; }
+.pub-list li{
+  padding: 16px 18px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  font-size: .95rem;
+  transition: border-color .15s ease, background .15s ease;
+}
+.pub-list li:hover{ border-color: var(--violet); background: var(--bg-tint); }
+.pub-list a{ text-decoration:none; font-weight:600; }
+.pub-list a:hover{ color: var(--violet-deep); }
+
+/* cards: blog / projects */
+.card-grid{ display:grid; gap: 18px; }
+.entry-card{
+  display:flex; align-items:center; justify-content:space-between; gap: 16px;
+  padding: 22px 24px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  text-decoration:none;
+  color: var(--ink);
+  transition: transform .15s ease, border-color .15s ease, box-shadow .15s ease;
+  background: #fff;
+}
+.entry-card:hover{
+  transform: translateY(-3px);
+  border-color: var(--violet);
+  box-shadow: 0 10px 24px rgba(107,36,232,.10);
+}
+.entry-card .entry-title{ font-weight: 700; font-size: 1.05rem; margin-bottom: 4px; }
+.entry-card .entry-date{ font-family: var(--font-mono); font-size: .78rem; color: var(--ink-soft); }
+.entry-card .arrow{ font-size: 1.3rem; color: var(--coral); flex-shrink:0; }
+
+.empty-note{
+  padding: 22px 24px;
+  border: 1px dashed var(--line);
+  border-radius: var(--radius-md);
+  color: var(--ink-soft);
+  font-size: .92rem;
+}
+
+/* footer */
+.site-footer{
+  border-top: 1px solid var(--line);
+  padding: 34px 0 46px;
+  margin-top: 20px;
+}
+.footer-row{
+  display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap: 12px;
+  font-size: .85rem; color: var(--ink-soft);
+}
+.footer-row a{ text-decoration:none; font-weight:600; color: var(--ink); }
+
+@media (max-width: 760px){
+  .hero{ grid-template-columns: 1fr; padding-top: 40px; }
+  .graph-wrap{ order:-1; }
+  .about-grid{ grid-template-columns: 1fr; }
+  .nav-links{ gap: 0; }
+  .nav-links a{ padding: 8px 10px; font-size:.86rem; }
+}
+
+
+/* preview-only tab mechanics */
+.page{ display:none; }
+.page.active{ display:block; animation: fade .25s ease; }
+@keyframes fade{ from{opacity:0; transform: translateY(6px);} to{opacity:1; transform:none;} }
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav">
+    <a class="brand" href="#" data-nav="home"><span class="dot"></span> lina molinas comet</a>
+    <ul class="nav-links">
+      <li><a href="#" data-nav="home" class="active">Home</a></li>
+      <li><a href="#" data-nav="blog">Blog</a></li>
+      <li><a href="#" data-nav="projects">Projects</a></li>
+      <li><a href="#" data-nav="about">About</a></li>
+      <li><a href="https://www.linkedin.com/in/lina-teresa-molinas-comet" target="_blank" rel="noopener">Résumé</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- ===================== HOME ===================== -->
+<main id="page-home" class="page active">
+  <div class="wrap hero">
+    <div>
+      <span class="eyebrow">Research Associate · Fraunhofer FIT</span>
+      <h1>Lina Molinas<br><span class="accent">Comet.</span></h1>
+      <p class="role">Computer scientist working on Knowledge Graphs and Semantic Data Modelling for Data Spaces — connecting Mobility, Industry 4.0, Agriculture and Culture through interoperable data.</p>
+      <div class="hero-actions">
+        <a class="btn primary" href="#" data-nav="projects">See projects</a>
+        <a class="btn" href="#" data-nav="about">About me</a>
+      </div>
+      <div class="social-row">
+        <a href="https://github.com/lcomet" target="_blank" rel="noopener" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.73.5.5 5.73.5 12a11.5 11.5 0 0 0 7.86 10.94c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.53-1.34-1.29-1.7-1.29-1.7-1.05-.72.08-.71.08-.71 1.16.08 1.77 1.2 1.77 1.2 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.1 11.1 0 0 1 5.8 0c2.2-1.49 3.17-1.18 3.17-1.18.64 1.59.24 2.76.12 3.05.74.8 1.19 1.83 1.19 3.09 0 4.42-2.7 5.4-5.26 5.68.41.36.78 1.07.78 2.16v3.2c0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12C23.5 5.73 18.27.5 12 .5Z"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/in/lina-teresa-molinas-comet" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.61 0 4.28 2.38 4.28 5.47v6.27ZM5.34 7.43a2.07 2.07 0 1 1 0-4.13 2.07 2.07 0 0 1 0 4.13ZM7.12 20.45H3.56V9h3.56v11.45Z"/></svg>
+        </a>
+        <a href="https://twitter.com/linacomet" target="_blank" rel="noopener" aria-label="Twitter">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 5.9c-.7.32-1.46.53-2.25.63a3.9 3.9 0 0 0 1.72-2.16c-.76.45-1.6.78-2.5.96A3.9 3.9 0 0 0 12.1 8.9 11.06 11.06 0 0 1 4 4.9a3.9 3.9 0 0 0 1.2 5.2 3.87 3.87 0 0 1-1.77-.49v.05a3.9 3.9 0 0 0 3.13 3.82 3.9 3.9 0 0 1-1.76.07 3.9 3.9 0 0 0 3.64 2.71A7.83 7.83 0 0 1 2 18.4a11.04 11.04 0 0 0 5.98 1.75c7.17 0 11.1-5.94 11.1-11.09l-.01-.5A7.9 7.9 0 0 0 22 5.9Z"/></svg>
+        </a>
+        <a href="mailto:linamolinascomet@gmail.com" aria-label="Email">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M2 5.5A1.5 1.5 0 0 1 3.5 4h17A1.5 1.5 0 0 1 22 5.5v13a1.5 1.5 0 0 1-1.5 1.5h-17A1.5 1.5 0 0 1 2 18.5v-13Zm2.2.5 7.8 6.1 7.8-6.1H4.2Zm15.8 1.6-7.4 5.8a1 1 0 0 1-1.2 0L4 7.6V18h16V7.6Z"/></svg>
+        </a>
+      </div>
+    </div>
+    <div class="graph-wrap">
+      <svg viewBox="0 0 400 400" aria-hidden="true">
+        <g>
+          <line class="edge-anim" x1="200" y1="200" x2="90" y2="110" style="animation-delay:.05s"/>
+          <line class="edge-anim" x1="200" y1="200" x2="310" y2="90" style="animation-delay:.15s"/>
+          <line class="edge-anim" x1="200" y1="200" x2="340" y2="220" style="animation-delay:.25s"/>
+          <line class="edge-anim" x1="200" y1="200" x2="260" y2="330" style="animation-delay:.35s"/>
+          <line class="edge-anim" x1="200" y1="200" x2="110" y2="310" style="animation-delay:.45s"/>
+          <line class="edge-anim" x1="200" y1="200" x2="60" y2="210" style="animation-delay:.55s"/>
+        </g>
+        <circle class="core" cx="200" cy="200" r="26"/>
+        <text x="200" y="205" text-anchor="middle" font-family="Space Grotesk" font-size="11" fill="#fff" font-weight="700">LINA</text>
+
+        <circle cx="90" cy="110" r="16" fill="#6B24E8"/>
+        <text class="node-label" x="90" y="86" text-anchor="middle">Knowledge Graphs</text>
+
+        <circle cx="310" cy="90" r="16" fill="#FF4D73"/>
+        <text class="node-label" x="310" y="66" text-anchor="middle">Data Spaces</text>
+
+        <circle cx="340" cy="220" r="14" fill="#00A896"/>
+        <text class="node-label" x="345" y="245" text-anchor="middle">Semantic Web</text>
+
+        <circle cx="260" cy="330" r="14" fill="#F5A300"/>
+        <text class="node-label" x="260" y="354" text-anchor="middle">Music &amp; Art</text>
+
+        <circle cx="110" cy="310" r="13" fill="#6B24E8"/>
+        <text class="node-label" x="110" y="334" text-anchor="middle">Yoga</text>
+
+        <circle cx="60" cy="210" r="13" fill="#FF4D73"/>
+        <text class="node-label" x="70" y="192" text-anchor="middle">Writing</text>
+      </svg>
+    </div>
+  </div>
+
+  <section class="block wrap">
+    <span class="eyebrow">Latest</span>
+    <h2>From the blog</h2>
+    <div class="card-grid" style="margin-bottom:28px;">
+      <a class="entry-card" href="#" data-nav="blog">
+        <div>
+          <div class="entry-date">Nov 27, 2023</div>
+          <div class="entry-title">Some post</div>
+        </div>
+        <span class="arrow">→</span>
+      </a>
+    </div>
+    <a class="btn" href="#" data-nav="blog">All posts</a>
+  </section>
+</main>
+
+<!-- ===================== ABOUT ===================== -->
+<main id="page-about" class="page">
+  <section class="block wrap" style="border-top:none; padding-top:56px;">
+    <div class="about-grid">
+      <div>
+        <img class="about-photo" src="https://lcomet.github.io/linamolinascomet//assets/images/profile.jpg" alt="Lina Molinas Comet" onerror="this.style.display='none'">
+      </div>
+      <div>
+        <span class="eyebrow" style="color:var(--coral)">About</span>
+        <h2>Hi, I'm Lina.</h2>
+        <p>I'm a Research Associate at the Data Science and Artificial Intelligence Department at Fraunhofer FIT. I'm a highly organized, results-oriented person with attention to detail and efficient communication.</p>
+        <p>I currently work on the definition and implementation of Data Spaces, focusing on Knowledge Engineering and Semantic Data Modelling. My projects span Mobility, Industry 4.0, Agriculture, and Culture, and I've contributed to the IDS Information Model and mobilityDCAT‑AP specifications.</p>
+        <p>My main interest is building semantically interoperable environments on the Web — using Semantic Web technologies to help industries share and understand data more efficiently. My varied background in Computer Science gives me a broad view and helps me deliver quality results.</p>
+        <p>Outside of work, I love music and art, doing yoga, cooking creatively, and hiking. I read and write often, and I'm always working on improving both professionally and personally.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="block wrap">
+    <span class="eyebrow">Skills</span>
+    <h2>What I work with</h2>
+    <div class="skills-groups">
+      <div class="skills-group">
+        <h4>Semantic Web &amp; Knowledge Engineering</h4>
+        <div class="chip-row">
+          <span class="chip">Semantic Data Modeling</span>
+          <span class="chip">Knowledge Graphs</span>
+          <span class="chip">Knowledge Representation</span>
+          <span class="chip">Ontology Dev &amp; Reasoning</span>
+          <span class="chip">OWL</span><span class="chip">RDF</span><span class="chip">RDFS</span><span class="chip">SHACL</span><span class="chip">SPARQL</span><span class="chip">WebVOWL</span><span class="chip">Protégé</span>
+        </div>
+      </div>
+      <div class="skills-group">
+        <h4>Engineering</h4>
+        <div class="chip-row">
+          <span class="chip">Python</span><span class="chip">C / C++</span><span class="chip">Java</span>
+          <span class="chip">Django</span><span class="chip">Flask</span>
+          <span class="chip">MySQL</span><span class="chip">MongoDB</span><span class="chip">PostgreSQL</span>
+          <span class="chip">HTML/CSS/JS</span><span class="chip">Git</span>
+        </div>
+      </div>
+      <div class="skills-group">
+        <h4>Practice</h4>
+        <div class="chip-row">
+          <span class="chip">Software QA</span>
+          <span class="chip">Test Strategy &amp; TDD</span>
+          <span class="chip">Continuous Integration</span>
+          <span class="chip">Scrum</span><span class="chip">Kanban</span>
+          <span class="chip">macOS</span><span class="chip">Linux</span><span class="chip">Windows</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="block wrap">
+    <span class="eyebrow">Languages</span>
+    <h2>Spoken languages</h2>
+    <div class="lang-list">
+      <div class="lang-row"><span>English</span><div class="lang-bar"><span style="width:85%"></span></div></div>
+      <div class="lang-row"><span>Spanish</span><div class="lang-bar"><span style="width:100%; background:var(--coral)"></span></div></div>
+      <div class="lang-row"><span>Guarani</span><div class="lang-bar"><span style="width:100%; background:var(--coral)"></span></div></div>
+      <div class="lang-row"><span>German</span><div class="lang-bar"><span style="width:55%; background:var(--teal)"></span></div></div>
+      <div class="lang-row"><span>Dutch</span><div class="lang-bar"><span style="width:20%; background:var(--amber)"></span></div></div>
+    </div>
+  </section>
+
+  <section class="block wrap">
+    <span class="eyebrow">Publications</span>
+    <h2>Papers &amp; writing</h2>
+    <ul class="pub-list">
+      <li><a href="https://www.inderscienceonline.com/doi/abs/10.1504/EG.2022.121856/" target="_blank" rel="noopener">Towards a standard-based open data ecosystem: analysis of DCAT-AP use at national and European level</a></li>
+      <li><a href="https://www.researchgate.net/profile/Lina-Teresa-Molinas-Comet/publication/343041524_Visual_Narrative_Data-Driven_Storytelling_Seminar_Paper/links/5f12e0ee299bf1e548c0d030/Visual-Narrative-Data-Driven-Storytelling-Seminar-Paper.pdf/" target="_blank" rel="noopener">Visual Narrative Data-Driven Storytelling</a></li>
+      <li><a href="https://arxiv.org/abs/2310.08365" target="_blank" rel="noopener">From Large Language Models to Knowledge Graphs for Biomarker Discovery in Cancer</a></li>
+      <li><a href="https://arxiv.org/abs/2302.04737" target="_blank" rel="noopener">A Biomedical Knowledge Graph for Biomarker Discovery in Cancer</a></li>
+      <li><a href="https://www.researchgate.net/profile/Lina-Teresa-Molinas-Comet/publication/364753209" target="_blank" rel="noopener">Establishment of a Guideline for the Intuitive Creation of Semantic Models in the Internet of Production (IoP) — Master's Thesis</a></li>
+      <li><a href="https://www.researchgate.net/profile/Lina-Teresa-Molinas-Comet/publication/343041490_Clustering_Knowledge_Graphs_Seminar_Paper/links/5f12e248299bf1e548c0d05b/Clustering-Knowledge-Graphs-Seminar-Paper.pdf" target="_blank" rel="noopener">Clustering Knowledge Graphs</a></li>
+    </ul>
+  </section>
+</main>
+
+<!-- ===================== BLOG ===================== -->
+<main id="page-blog" class="page">
+  <section class="block wrap" style="border-top:none; padding-top:56px;">
+    <span class="eyebrow">Writing</span>
+    <h2>Blog</h2>
+    <div class="card-grid">
+      <a class="entry-card" href="https://lcomet.github.io/linamolinascomet//markdown-extra-components/" target="_blank" rel="noopener">
+        <div>
+          <div class="entry-date">Nov 27, 2023</div>
+          <div class="entry-title">Some post</div>
+        </div>
+        <span class="arrow">→</span>
+      </a>
+      <div class="empty-note">More posts coming soon — this space will fill up as new entries are published.</div>
+    </div>
+  </section>
+</main>
+
+<!-- ===================== PROJECTS ===================== -->
+<main id="page-projects" class="page">
+  <section class="block wrap" style="border-top:none; padding-top:56px;">
+    <span class="eyebrow">Work</span>
+    <h2>Projects</h2>
+    <div class="card-grid">
+      <a class="entry-card" href="https://lcomet.github.io/linamolinascomet//someproject/" target="_blank" rel="noopener">
+        <div>
+          <div class="entry-date">Nov 27, 2023</div>
+          <div class="entry-title">my project</div>
+        </div>
+        <span class="arrow">→</span>
+      </a>
+      <div class="empty-note">More projects coming soon.</div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-row">
+    <span>© 2023–2026 Lina Molinas Comet</span>
+    <a href="https://lcomet.github.io/linamolinascomet//feed.xml" target="_blank" rel="noopener">RSS feed</a>
+  </div>
+</footer>
+
+<script>
+  const links = document.querySelectorAll('[data-nav]');
+  const pages = document.querySelectorAll('.page');
+  function go(name){
+    pages.forEach(p => p.classList.toggle('active', p.id === 'page-' + name));
+    document.querySelectorAll('.nav-links a').forEach(a => a.classList.toggle('active', a.dataset.nav === name));
+    window.scrollTo({top:0, behavior:'instant'});
+    // retrigger graph draw animation when returning home
+    if(name === 'home'){
+      document.querySelectorAll('.edge-anim').forEach(l=>{
+        l.style.animation = 'none';
+        void l.offsetWidth;
+        l.style.animation = null;
+      });
+    }
+  }
+  links.forEach(a => a.addEventListener('click', e => {
+    e.preventDefault();
+    go(a.dataset.nav);
+  }));
+</script>
+</body>
+</html>
