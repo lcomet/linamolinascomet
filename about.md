@@ -77,9 +77,10 @@ permalink: /about/
     <li><a href="https://www.researchgate.net/profile/Lina-Teresa-Molinas-Comet/publication/343041524_Visual_Narrative_Data-Driven_Storytelling_Seminar_Paper/links/5f12e0ee299bf1e548c0d030/Visual-Narrative-Data-Driven-Storytelling-Seminar-Paper.pdf" target="_blank" rel="noopener">Visual narrative data-driven storytelling</a></li>
     <li><a href="https://arxiv.org/abs/2302.04737" target="_blank" rel="noopener">A Biomedical Knowledge Graph for Biomarker Discovery in Cancer</a></li>
     <li><a href="https://link.springer.com/chapter/10.1007/978-3-031-94578-6_13" target="_blank" rel="noopener">mobilityDCAT-AP: A Metadata Specification for Enhanced Cross-Border Mobility Data Sharing</a></li>
+    <li><a href="https://zenodo.org/records/13120339" target="_blank" rel="noopener">FAIRness in Dataspaces: The Role of Semantics for Data Management</a></li>
     <li><a href="https://www.researchgate.net/publication/364753209_Master's_Thesis_Establishment_of_a_Guideline_for_the_Intuitive_Creation_of_Semantic_Models_in_the_Internet_of_Production_IoP" target="_blank" rel="noopener">Establishment of a Guideline for the Intuitive Creation of Semantic Models in the Internet of Production (IoP)</a></li>
     <li><a href="https://ui.adsabs.harvard.edu/abs/2023arXiv231008365R/abstract" target="_blank" rel="noopener">From Large Language Models to Knowledge Graphs for Biomarker Discovery in Cancer</a></li>
-    <li><a href="https://publications.rwth-aachen.de/record/952990" target="_blank" rel="noopener">Establishment of a Guideline for the Intuitive Creation of Semantic Models in the Internet of Production (IoP) - Conference Contribution</a></li>
+    <li><a href="https://publications.rwth-aachen.de/record/952990" target="_blank" rel="noopener">NFDI4Ing Conference 2022 - Conference Contributions</a></li>
     <li><a href="https://www.researchgate.net/profile/Lina-Teresa-Molinas-Comet/publication/343041490_Clustering_Knowledge_Graphs_Seminar_Paper/links/5f12e248299bf1e548c0d05b/Clustering-Knowledge-Graphs-Seminar-Paper.pdf" target="_blank" rel="noopener">Clustering Knowledge Graphs</a></li>
   </ul>
 </section>
