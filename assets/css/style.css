@@ -290,6 +290,7 @@ section.block:first-of-type{ border-top: none; }
   transition: transform .15s ease, border-color .15s ease, box-shadow .15s ease;
   background: #fff;
 }
+.entry-card.tall{ align-items: flex-start; }
 .entry-card:hover{
   transform: translateY(-3px);
   border-color: var(--violet);
@@ -298,6 +299,9 @@ section.block:first-of-type{ border-top: none; }
 .entry-card .entry-title{ font-weight: 700; font-size: 1.05rem; margin-bottom: 4px; }
 .entry-card .entry-date{ font-family: var(--font-mono); font-size: .78rem; color: var(--ink-soft); }
 .entry-card .arrow{ font-size: 1.3rem; color: var(--coral); flex-shrink:0; }
+.entry-card .entry-desc{ font-size: .92rem; color: var(--ink-soft); margin: 6px 0 10px; max-width: 60ch; }
+.entry-card .entry-tags{ display:flex; gap:8px; flex-wrap:wrap; }
+.entry-card .entry-main{ flex: 1; min-width: 0; }
 
 .empty-note{
   padding: 22px 24px;
