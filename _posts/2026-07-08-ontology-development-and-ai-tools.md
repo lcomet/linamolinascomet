@@ -43,6 +43,6 @@ categories: [blog]
 
 <p>This is also where I think a lot of the "AI will automate ontology engineering" framing gets it backwards. The bottleneck was never typing out axioms quickly. It was building shared, correct understanding between people who see the domain differently. AI tools can remove a lot of the friction around that process &mdash; drafting, searching, checking, documenting &mdash; but the understanding itself still has to be built by the people who need to trust the result.</p>
 
-<p>I explored a related version of this question in <a href="https://arxiv.org/abs/2310.08365" target="_blank" rel="noopener">a recent paper on using LLMs for biomarker knowledge graph construction</a>, and I think the lesson generalizes well beyond biomedicine: treat the model as a fast, sometimes-wrong research assistant, keep the verification step non-negotiable, and you get a genuinely useful speed-up without giving up rigor.</p>
+<p>We explored a related version of this question in <a href="https://arxiv.org/abs/2310.08365" target="_blank" rel="noopener">a recent paper on using LLMs for biomarker knowledge graph construction</a>, and I think the lesson generalizes well beyond biomedicine: treat the model as a fast, sometimes-wrong research assistant, keep the verification step non-negotiable, and you get a genuinely useful speed-up without giving up rigor.</p>
 
 </section>
