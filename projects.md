@@ -46,6 +46,19 @@ permalink: /projects/
       </div>
     </div>
 
+    <a class="entry-card tall" href="https://github.com/lcomet/OntologyAlignmentKGLab" target="_blank" rel="noopener">
+      <div class="entry-main">
+        <div class="entry-date">Ontology Alignment</div>
+        <div class="entry-title">Alignment of ontologies using BioPortal</div>
+        <p class="entry-desc"> We evaluated the links between ontologies in BioPortal by applying metrics and comparing their results. The metrics we are implementing in this project are based on structural similarity (considering similarity between descendants/ancestors, etc.), and terminological similarity (taking into account the similarity between preferred labels, and other descriptions). Moreover, we tested our findings against mappings corresponding to the silver standard from Pistoia, and proposed the new possible links that should be included as matching between two ontologies, and those that may should deleted because they are considered to be a bad match.</p>
+        <div class="entry-tags">
+          <span class="chip">Ontology Alingment</span>
+          <span class="chip">Knowledge Graphs</span>
+          <span class="chip">GitHub &#8599;</span>
+        </div>
+      </div>
+    </div>
+
     {% assign proj_posts = site.posts | where_exp: "p", "p.categories contains 'projects'" %}
     {% for post in proj_posts %}
     <a class="entry-card" href="{{ post.url | relative_url }}">
@@ -63,8 +76,6 @@ permalink: /projects/
          whole fallback block with a manual list like the ones above. -->
     <a class="entry-card" href="{{ '/someproject/' | relative_url }}">
       <div>
-        <div class="entry-date">Nov 27, 2023</div>
-        <div class="entry-title">my project</div>
       </div>
       <span class="arrow">&rarr;</span>
     </a>
