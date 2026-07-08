@@ -11,10 +11,10 @@ permalink: /about/
     <div>
       <span class="eyebrow" style="color:var(--coral)">About</span>
       <h2>Hi, I'm Lina.</h2>
-      <p>I'm a Research Associate at the Data Science and Artificial Intelligence Department at Fraunhofer FIT. I'm a highly organized, results-oriented person with attention to detail and efficient communication.</p>
-      <p>I currently work on the definition and implementation of Data Spaces, focusing on Knowledge Engineering and Semantic Data Modelling. My projects span Mobility, Industry 4.0, Agriculture, and Culture, and I've contributed to the <a href="https://international-data-spaces-association.github.io/InformationModel/docs/index.html">IDS Information Model</a> and <a href="https://mobilitydcat-ap.github.io/mobilityDCAT-AP/releases/index.html">mobilityDCAT-AP</a> specifications.</p>
+      <p>I'm a Research Associate at the Data Science and Artificial Intelligence Department at Fraunhofer FIT, and a highly organized, results-oriented person with an eye for detail and clear communication.</p>
+      <p>My current work centers on Data Spaces &mdash; specifically, how to achieve semantic interoperability between participants who don't share a common schema. Alongside that, I still work hands-on in ontology development, including quality assurance with SHACL, validating models against real-life data rather than treating them as purely theoretical. My projects span Mobility, Industry 4.0, Agriculture, and Culture, and I've contributed to the <a href="https://international-data-spaces-association.github.io/InformationModel/docs/index.html">IDS Information Model</a> and <a href="https://mobilitydcat-ap.github.io/mobilityDCAT-AP/releases/index.html">mobilityDCAT-AP</a> specifications.</p>
       <p>My main interest is building semantically interoperable environments on the Web &mdash; using Semantic Web technologies to help industries share and understand data more efficiently. My varied background in Computer Science gives me a broad view and helps me deliver quality results.</p>
-      <p>Outside of work, I love music and art, doing yoga, cooking creatively, and hiking. I read and write often, and I'm always working on improving both professionally and personally.</p>
+      <p>Outside of work, I love spending time with my family and in nature. I practice yoga and I'm drawn to spirituality, psychology, and neuroscience, and I enjoy cooking creatively and photography. I read and write often, and I'm always working on constant improvement, both personally and professionally.</p>
     </div>
   </div>
 </section>
@@ -71,15 +71,11 @@ permalink: /about/
   <span class="eyebrow">Publications</span>
   <h2>Papers &amp; writing</h2>
   <ul class="pub-list">
-    <li><a href="https://link.springer.com/article/10.1007/s10845-024-02425-z" target="_blank" rel="noopener">A review and classification of manufacturing ontologies</a></li>
-    <li><a href="https://link.springer.com/chapter/10.1007/978-3-031-94578-6_13" target="_blank" rel="noopener">mobilityDCAT-AP: A Metadata Specification for Enhanced Cross-Border Mobility Data Sharing</a></li>
-    <li><a href="https://zenodo.org/records/13120339" target="_blank" rel="noopener">FAIRness in Dataspaces: The Role of Semantics for Data Management</a></li>
-    <li><a href="https://ui.adsabs.harvard.edu/abs/2023arXiv231008365R/abstract" target="_blank" rel="noopener">From Large Language Models to Knowledge Graphs for Biomarker Discovery in Cancer</a></li>
-    <li><a href="https://arxiv.org/abs/2302.04737" target="_blank" rel="noopener">A Biomedical Knowledge Graph for Biomarker Discovery in Cancer</a></li>
-     <li><a href="https://www.researchgate.net/publication/364753209_Master's_Thesis_Establishment_of_a_Guideline_for_the_Intuitive_Creation_of_Semantic_Models_in_the_Internet_of_Production_IoP" target="_blank" rel="noopener">Establishment of a Guideline for the Intuitive Creation of Semantic Models in the Internet of Production (IoP)</a></li>
-    <li><a href="https://publications.rwth-aachen.de/record/952990" target="_blank" rel="noopener">NFDI4Ing Conference 2022 - Conference Contributions</a></li>
     <li><a href="https://www.inderscienceonline.com/doi/abs/10.1504/EG.2022.121856/" target="_blank" rel="noopener">Towards a standard-based open data ecosystem: analysis of DCAT-AP use at national and European level</a></li>
+    <li><a href="https://www.researchgate.net/profile/Lina-Teresa-Molinas-Comet/publication/343041524_Visual_Narrative_Data-Driven_Storytelling_Seminar_Paper/links/5f12e0ee299bf1e548c0d030/Visual-Narrative-Data-Driven-Storytelling-Seminar-Paper.pdf/" target="_blank" rel="noopener">Visual Narrative Data-Driven Storytelling</a></li>
+    <li><a href="https://arxiv.org/abs/2310.08365" target="_blank" rel="noopener">From Large Language Models to Knowledge Graphs for Biomarker Discovery in Cancer</a></li>
+    <li><a href="https://arxiv.org/abs/2302.04737" target="_blank" rel="noopener">A Biomedical Knowledge Graph for Biomarker Discovery in Cancer</a></li>
+    <li><a href="https://www.researchgate.net/profile/Lina-Teresa-Molinas-Comet/publication/364753209" target="_blank" rel="noopener">Establishment of a Guideline for the Intuitive Creation of Semantic Models in the Internet of Production (IoP) &mdash; Master's Thesis</a></li>
     <li><a href="https://www.researchgate.net/profile/Lina-Teresa-Molinas-Comet/publication/343041490_Clustering_Knowledge_Graphs_Seminar_Paper/links/5f12e248299bf1e548c0d05b/Clustering-Knowledge-Graphs-Seminar-Paper.pdf" target="_blank" rel="noopener">Clustering Knowledge Graphs</a></li>
-    <li><a href="https://www.researchgate.net/profile/Lina-Teresa-Molinas-Comet/publication/343041524_Visual_Narrative_Data-Driven_Storytelling_Seminar_Paper/links/5f12e0ee299bf1e548c0d030/Visual-Narrative-Data-Driven-Storytelling-Seminar-Paper.pdf" target="_blank" rel="noopener">Visual narrative data-driven storytelling</a></li>
   </ul>
 </section>
