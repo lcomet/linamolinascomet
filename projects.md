@@ -74,13 +74,6 @@ permalink: /projects/
          above, it likely isn't tagged with a "projects" category — add
          `categories: [projects]` to that post's front matter, or replace this
          whole fallback block with a manual list like the ones above. -->
-    <a class="entry-card" href="{{ '/someproject/' | relative_url }}">
-      <div>
-        <div class="entry-date">Nov 27, 2023</div>
-        <div class="entry-title">my project</div>
-      </div>
-      <span class="arrow">&rarr;</span>
-    </a>
     {% endfor %}
   </div>
 </section>
