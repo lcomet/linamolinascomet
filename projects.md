@@ -8,6 +8,19 @@ permalink: /projects/
   <h2>Projects</h2>
   <div class="card-grid">
 
+    <a class="entry-card tall" href="https://lcomet.github.io/semantic-models-iop-website/" target="_blank" rel="noopener">
+      <div class="entry-main">
+        <div class="entry-date">Semantic Data Modelling</div>
+        <div class="entry-title">Website for the Unified Guidelines for the Creation of Semantic Models in the IoP</div>
+        <p class="entry-desc">The guidelines for developing ontologies in the Internet of Production are now available as an interactive website. It includes full-text search with highlighted excerpts, a command palette, and an "Ask this guide" box for plain-English questions that point straight to the relevant passage. The running class/property example and the 42-ontology domain comparison from the Appendix are now explorable graphs instead of static diagrams. The Ontology Requirements, Competency Questions, and Class/Property/Individuals Definition templates are fillable directly on the page, autosave in your browser, and export to CSV, Markdown, or a ready-to-use OWL/Turtle file &mdash; and as you fill them in, your own classes and properties render as a live graph next to the book's example, with support for keeping multiple projects side by side. The site also includes a progress tracker for the 11-step workflow, dark mode, adjustable text size, and a citation/BibTeX section.</p>
+        <div class="entry-tags">
+          <span class="chip">Semantic Data Modelling</span>
+          <span class="chip">Internet of Production</span>
+          <span class="chip">GitHub &#8599;</span>
+        </div>
+      </div>
+    </a>
+
     <a class="entry-card tall" href="https://github.com/lcomet/UnifiedGuidelinesOntologyDevelopmentForIoP" target="_blank" rel="noopener">
       <div class="entry-main">
         <div class="entry-date">Ontology Development</div>
@@ -68,12 +81,6 @@ permalink: /projects/
       </div>
       <span class="arrow">&rarr;</span>
     </a>
-    {% else %}
-    <!-- Fallback: your original theme listed project entries the same way as
-         blog posts (from _posts/). If your "my project" entry doesn't show up
-         above, it likely isn't tagged with a "projects" category — add
-         `categories: [projects]` to that post's front matter, or replace this
-         whole fallback block with a manual list like the ones above. -->
     {% endfor %}
   </div>
 </section>
