@@ -33,7 +33,7 @@ permalink: /projects/
       </div>
     </a>
 
-    <a class="entry-card tall" href="https://github.com/lcomet/IM-Application-Profiles" target="_blank" rel="noopener">
+    <a class="entry-card tall" href="https://github.com/lcomet/IM-Application-Profiles-1" target="_blank" rel="noopener">
       <div class="entry-main">
         <div class="entry-date">Ontology Matching &amp; Mapping</div>
         <div class="entry-title">IM Application Profiles</div>
